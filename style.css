@@ -1,0 +1,100 @@
+body {
+    display: flex;
+width: auto;
+height: auto;
+padding: 81px 186px;
+flex-direction: column;
+align-items: flex-start;
+gap: 10px;
+background: url(../3/img/coffee-with-music-devices.jpg) lightgray 50% / cover no-repeat;
+font-family: "Grenze Gotisch";
+}
+
+.grenze-gotisch {
+  font-family: "Grenze Gotisch", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container {
+    display: flex;
+width: 822px;
+height: 461px;
+padding: 0px 19px 48px 19px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+border-radius: 40px;
+background: rgba(255, 255, 255, 0.80);
+}
+.container h1{
+    color: #000;
+    font-family: "Grenze Gotisch";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin:0;
+}
+.upload{
+    display: flex;
+width: 664px;
+padding: 0px 15px;
+justify-content: center;
+align-items: center;
+gap: 12px;
+}
+.upload label{
+    color: #000;
+font-family: "Grenze Gotisch";
+font-size: 36px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.controls{
+    display: flex;
+padding: 1px 28px;
+align-items: flex-start;
+gap: 40px;
+}
+
+.controls button {
+    display: flex;
+width: 220px;
+padding: 10px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 80px;
+background: #000;
+color: #FFF;
+font-family: "Grenze Gotisch";
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.sliders label{
+    color: #000;
+    font-family: "Grenze Gotisch";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.sliders {
+    display: flex;
+    padding: 6px 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+.controls button:hover {
+    background-color: #786A60;
+}
+
